@@ -13,7 +13,7 @@ test('comparison with toBe', () => {
     { name: 'мечник', health: 10 },
   ];
 
-  expect(result).toBe(expected);
+  expect(result).not.toBe(expected);
 });
 
 test('comparison', () => {
