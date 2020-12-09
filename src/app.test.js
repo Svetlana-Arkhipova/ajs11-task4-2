@@ -16,7 +16,6 @@ test('comparison with toBe', () => {
   expect(result).toBe(expected);
 });
 
-
 test('comparison', () => {
   const users = [
     { name: 'мечник', health: 10 },
